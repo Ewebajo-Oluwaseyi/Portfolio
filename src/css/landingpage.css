@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+.landingpage {
+  margin-top: 17%;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.landing_grid {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.profile_grid_item {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile_grid_item img {
+  width: 50%;
+  height: 250px;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.about {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-top: 1.5%;
+}
+.about p {
+  margin-top: 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 0 2px 0 2px;
+  line-height: 50px;
+}
+.profile_name {
+  font-family: 'Fredoka One';
+  padding-left: 0%;
+}
+.name {
+  margin-top: 3%;
+  font-family: 'Fredoka One';
+  margin-left: 16px;
+  font-size: 2rem;
+  color: white;
+}
+.greetings {
+  font-size: 19px;
+  text-align: center;
+}
+
+.typing-effect {
+  margin-top: 3%;
+  font-family: 'Fredoka one';
+  font-size: 20px;
+  text-align: center;
+}
+.about p {
+  margin-top: 3%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 0 2px 0 2px;
+}
+
+.ArrowDown {
+  color: white;
+  margin-left: 46%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  margin-top: 8%;
+}
+
+@keyframes example {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20%);
+  }
+}
+
+@media only screen and (min-width: 1071px) {
+  .landingpage {
+    margin-top: 3.3%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+
+  .landing_grid {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .profile_grid_item {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  .profile_grid_item img {
+    margin-top: 50px;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .about {
+    padding-left: 2%;
+    padding-right: 13%;
+    margin-top: 15%;
+  }
+  .about p {
+    margin-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 2px 0 2px;
+    line-height: 50px;
+  }
+
+  .profile_name {
+    font-family: 'Fredoka One';
+    padding-left: 5%;
+  }
+  .name {
+    margin-left: 1px;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .greetings {
+    font-size: 19px;
+  }
+
+  .typing-effect {
+    margin-top: 1rem;
+    font-family: 'Fredoka one';
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .resumeButton {
+    width: 25%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  .resumeButton:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .ArrowDown {
+    color: white;
+    margin-left: 46%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 5%;
+  }
+
+  @keyframes example {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(20%);
+    }
+  }
+}

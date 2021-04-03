@@ -1,0 +1,92 @@
+.aboutBody {
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.about_div {
+  text-align: center;
+}
+
+.about_me {
+  font-size: 25px;
+  font-family: 'Fredoka One';
+  color: rgb(5, 56, 107);
+  border-bottom: 4px solid white;
+}
+.about_me:hover {
+  color: grey;
+}
+
+.skin_item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.skin_item img {
+  width: 15%;
+  height: 40px;
+  margin-bottom: 2%;
+}
+
+.image_box {
+  color: black;
+  font-size: 13px;
+  font-family: 'Fredoka One';
+  border-radius: 1px;
+  transition: transform 0.5s;
+}
+
+.image_box:hover {
+  padding-top: 1%;
+  transform: translateX(10px);
+  border-radius: 15px 15px;
+  color: grey;
+}
+
+.skill_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1px;
+  border-radius: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 5%;
+  box-shadow: 0 1px 1px 0 grey;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+}
+
+@media only screen and (min-width: 1071px) {
+  .skill_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+    box-shadow: 0 8px 32px 0 grey;
+    background: #ece9e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ffffff,
+      #ece9e6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ffffff,
+      #ece9e6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 500px;
+  }
+}

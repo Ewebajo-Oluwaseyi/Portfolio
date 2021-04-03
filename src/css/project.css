@@ -1,0 +1,56 @@
+.projectBody {
+  padding-top: 5%;
+  margin-bottom: 4%;
+}
+
+.projectHead {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.projectHead span {
+  font-size: 27px;
+  border-bottom: 7px;
+  font-family: 'Fredoka One';
+  color: rgb(5, 56, 107);
+  border-bottom: 4px solid white;
+}
+
+.projectcard {
+  width: 12px;
+  margin: auto;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.projectItem {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1071px) {
+  .projectGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+
+  .projectcard {
+    width: 12px;
+    margin: auto;
+  }
+}

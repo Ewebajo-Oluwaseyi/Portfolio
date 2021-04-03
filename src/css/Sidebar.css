@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+.sidebarCOntainerShow {
+  transform: translateX(-100%);
+  transition: transform 1s;
+  background-color: black;
+  color: white;
+  font-family: 'Fredoka One';
+  height: 850px;
+  width: 40%;
+  position: fixed;
+  z-index: 600;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 60%;
+  font-size: 28px;
+}
+
+.sidebarContainer {
+  transform: translateX(0);
+  transition: transform 1s;
+  background-color: black;
+  color: white;
+  font-family: 'Fredoka One';
+  height: 850px;
+  width: 40%;
+  position: fixed;
+  z-index: 600;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 60%;
+  font-size: 28px;
+}
+
+.sidebarCOntainerShow ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebarContainer ul {
+  list-style: none;
+  text-decoration: none;
+}
+.sidebarContainer ul li:hover {
+  color: grey;
+}
+
+.resumesidebar {
+  color: white;
+}
+.resumesidebar:hover {
+  color: grey;
+}
+
+@media only screen and (min-width: 1071px) {
+  .sidebarContainer {
+    transform: translateX(-100%);
+  }
+}

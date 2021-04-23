@@ -13,12 +13,12 @@ const Navigation = (props) => {
     return (
         <nav>
             <div className="navigation">
-                <div className='headerName'><span>Ewebajo</span><span>Oluwaseyi</span></div>
+                <div className='headerName'>Sheifunmi</div>
 
                 <ul>
                     <li onClick={()=>props.scrollToRef(props.about)}>About</li>
                     <li onClick={()=>props.scrollToRef(props.project)}>Projects</li>
-                    <li><Link to={{pathname:"https://drive.google.com/file/d/1DrOIsjv6wdzd4wJZh94Z0BD_VMmMe2G1/view"}}  target='_blank' ><span className="resume">Resume</span></Link></li>
+                    <li><Link to={{pathname:"https://drive.google.com/file/d/1rlsu2pInNt2B8cmevXdMvr-HoGZRiqKI/view?usp=sharing"}}  target='_blank' ><span className="resume">Resume</span></Link></li>
                     <li onClick={()=>props.scrollToRef(props.contact)}>Contact</li>
                 </ul>
                 <span onClick={changeSidebar} className="barIcon"><i className="fa fa-bars"></i></span>

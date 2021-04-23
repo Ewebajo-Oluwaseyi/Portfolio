@@ -23,97 +23,107 @@ const About = (props) => {
     return (
         <div ref={props.refProp} className="aboutBody">
             <div className="skills_tools_div">
-            <div className="about_div">
+                <div className="about_div">
+                <span className="about_me">ABOUT ME</span>
+                <div className="about_info"> I'm a passionate and motivated Software developer with great passion for taking on challenges
+                        , I spend a lot of time building client-side applicatons with preference to the React.js framework.</div>
+                </div>
+
+            <div className="about_skill">
                 <span className="about_me">SKILLS & TOOLS</span>
             </div>
             <div className="skill_grid">
                 <div className="skin_item">
                     <div className="image_box">
-                        <img src={react} alt="logo" />
-                        <p>REACT JS</p>
+                        <i className="fab fa-react"></i>
                     </div>
+                    <p className="text">REACT JS</p>
                 </div>
+
                 <div className="skin_item">
-                    <div className="image_box">
-                        <img src={javascript} alt="logo" />
-                        <p>JAVASCRIPT</p>
+                <div className="image_box">
+                        <i className="fab fa-js-square"></i>
                     </div>
+                    <p className="text">JAVASCRIPT</p>
                 </div>
+
                 <div className="skin_item">
-                    <div className="image_box">
-                        <img src={redux} alt="logo" />
-                        <p>REDUX</p>
-                    </div>
+                <div className="image_box">
+                    <img src={redux} alt="logo" />
                 </div>
+                    <p className="text">REDUX</p>
+                </div>
+
                 <div className="skin_item">
-                    <div className="image_box">
-                        <img src={node} alt="logo" />
-                        <p>NODE JS</p>
-                    </div>
+                <div className="image_box">
+                <i className="fab fa-node-js"></i>
                 </div>
+                    <p className="text">NODE JS</p>
+                </div>
+
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={mongo} alt="logo" />
-                        <p>mongoDB</p>
                     </div>
+                    <p className="text">mongoDB</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={sql} alt="logo" />
-                        <p>MYSQL</p>
                     </div>
+                    <p className="text">MYSQL</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
-                        <img src={html} alt="logo" />
-                        <p>HTML5</p>
+                    <i class="fab fa-html5"></i>
                     </div>
+                    <p className="text">HTML5</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
-                        <img src={css} alt="logo" />
-                        <p>CSS3</p>
+                    <i class="fab fa-css3"></i>
                     </div>
+                    <p className="text">CSS3</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
-                        <img src={bootstrap} alt="logo" />
-                        <p>BOOTSTRAP</p>
+                    <i class="fab fa-bootstrap"></i>
                     </div>
+                    <p className="text">BOOTSTRAP</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={sass} alt="logo" />
-                        <p>SASS</p>
                     </div>
+                    <p className="text">SASS</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={material} alt="logo" />
-                        <p>Material UI</p>
                     </div>
+                    <p className="text">Material UI</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
-                        <img src={github} alt="logo" />
-                        <p>GITHIB</p>
+                    <i class="fab fa-github"></i>
                     </div>
+                    <p className="text">GITHIB</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={heroku} alt="logo" />
-                        <p>HEROKU</p>
                     </div>
+                    <p className="text">HEROKU</p>
                 </div>
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={netlify} alt="logo" />
-                        <p>NETLIFY</p>
                     </div>
+                    <p className="text">NETLIFY</p>
                 </div>
             </div>
             </div>
-
+            <div className="divisor"></div>
         </div>
     )
 }

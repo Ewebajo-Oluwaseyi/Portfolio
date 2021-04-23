@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Cell, Grid } from 'react-mdl';
 import '../css/landingpage.css'
-import img from '../image/emoji.png';
+import img from '../image/img1.jpg';
 import ReactTypingEffect from 'react-typing-effect'
 import {Link} from 'react-router-dom'
 
@@ -34,26 +34,26 @@ const Landingpage = (props) => {
                     <div className="name">I'm Ewebajo Oluwaseyi</div>
                     <div className="typing-effect">
                     <ReactTypingEffect
-                        text = {["A Web Developer"]}
+                        text = {["<Software developer/>"]}
                     />
                     </div>
 
-                    <p> I'm a passionate and motivated front-end developer with great passion for taking on challenges
-                        , I spend a lot of time building client-side applicatons with preference to the React.js framework.</p>
 
                 <div >
 
-                <Link to={{pathname:"https://drive.google.com/file/d/1DrOIsjv6wdzd4wJZh94Z0BD_VMmMe2G1/view"}} className='resume' target='_blank' >
+
+                </div>
+                </div>
+
+
+
+                </div>
+
+            {/*
+                 <Link to={{pathname:"https://drive.google.com/file/d/1DrOIsjv6wdzd4wJZh94Z0BD_VMmMe2G1/view"}} className='resume' target='_blank' >
                 <button className="btn btn-light waves-effect" type="button">My Resume</button>
                 </Link>
-                </div>
-                </div>
-
-
-
-                </div>
-
-            {/*<Grid className={style.landingGrid}>
+            <Grid className={style.landingGrid}>
                 <Cell col={12}>
                  <img src='/image/img.jpg' alt='Avatar' className={style.avatarImg}/>
                 </Cell>

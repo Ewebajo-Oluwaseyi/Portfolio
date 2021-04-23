@@ -4,14 +4,13 @@
   transition: transform 1s;
   background-color: black;
   color: white;
-  font-family: 'Fredoka One';
   height: 850px;
   width: 40%;
   position: fixed;
   z-index: 600;
   opacity: 0.8;
   text-align: center;
-  padding-top: 60%;
+  padding-top: 30%;
   font-size: 28px;
 }
 
@@ -27,7 +26,7 @@
   z-index: 600;
   opacity: 0.8;
   text-align: center;
-  padding-top: 60%;
+  padding-top: 30%;
   font-size: 28px;
 }
 
@@ -39,6 +38,12 @@
 .sidebarContainer ul {
   list-style: none;
   text-decoration: none;
+}
+.sidebarCOntainerShow li {
+  margin-top: 30px;
+}
+.sidebarContainer li {
+  margin-top: 30px;
 }
 .sidebarContainer ul li:hover {
   color: grey;

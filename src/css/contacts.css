@@ -1,26 +1,17 @@
+.contact {
+  margin-top: 3%;
+  padding-top: 8%;
+}
+
 .contactBody {
-  border-radius: 20px;
   padding: 10px;
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 3%;
-  box-shadow: 0 8px 32px 0 grey;
-  background: #ece9e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffffff,
-    #ece9e6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffffff,
-    #ece9e6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 1%;
   text-align: center;
 }
 .contacthead {
-  margin-top: 4%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   text-align: center;
 }
 .contact-info {
@@ -31,75 +22,84 @@
   line-height: 50px;
 }
 .contacthead span {
-  font-size: 27px;
+  font-size: 25px;
   border-bottom: 7px;
   font-family: 'Fredoka One';
-  color: rgb(5, 56, 107);
-  border-bottom: 4px solid white;
+  color: #5cdb95;
+  letter-spacing: 4px;
+}
+.listitem {
+  text-align: center;
 }
 .listitemcontent {
-  font-size: 15px;
-  font-family: 'Anton';
-  text-align: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.listitemcontent p {
+  margin-top: 5px;
+  margin-left: 12px;
+  font-size: 19px;
 }
 
-.listitemcontent i {
-  font-size: 15px;
-  margin-right: 14px;
-  color: rgb(5, 56, 107);
+.contact_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+    -6px -6px 12px rgba(255, 255, 255, 1);
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_icon i {
+  color: rgb(55, 150, 131, 0.9);
+  font-size: 20px;
 }
 
 footer {
   margin-top: 2%;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   justify-content: center;
   color: black;
-  background: rgb(55, 150, 131, 0.9);
-}
-.logos {
-  color: white;
-  text-align: center;
-}
-.awesomeLogos {
-  margin-right: 6%;
-  font-size: 20px;
+  background: #5cdb95;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
 }
 
-.awesomeLogos:hover {
+.logos i {
+  font-size: 29px;
+  justify-content: space-around;
+  color: white;
+  margin: 0 10px;
+}
+.logos i:hover {
   color: black;
 }
 
 @media only screen and (min-width: 1070px) {
-  .awesomeLogos {
-    margin-right: 6%;
-    font-size: 20px;
-    color: rgb(5, 56, 107);
+  .contact {
+    margin-top: 3%;
+    padding-top: 3%;
+  }
+  .logos i {
+    font-size: 29px;
+    justify-content: space-around;
+    color: white;
+    margin: 0 10px;
   }
 
-  .awesomeLogos:hover {
+  .logos i:hover {
     color: black;
   }
 
   .contactBody {
-    border-radius: 20px;
     padding: 10px;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 3%;
-    box-shadow: 0 8px 32px 0 grey;
-    background: #ece9e6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffffff,
-      #ece9e6
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffffff,
-      #ece9e6
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
   }
 }

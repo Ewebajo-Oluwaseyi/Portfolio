@@ -38,7 +38,10 @@ const Landingpage = (props) => {
                         text = {["<A Web Developer/>"]}
                         />
                     </div>
-                    <a onClick={()=>props.scrollToRef(props.about)} href="!#" className="moreBtn">More about me <span><i  className="fa fa-arrow-right ArrowRight"/></span></a>
+                    <button
+                    onClick={()=>props.scrollToRef(props.about)} className="moreBtn">
+                        More about me <span><i  className="fa fa-arrow-right ArrowRight"/></span>
+                    </button>
                 </div>
 
             </div>

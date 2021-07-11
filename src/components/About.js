@@ -1,22 +1,5 @@
 import React from 'react';
 import '../css/about.css';
-import react from '../image/react.png'
-import css from '../image/css.png'
-import bootstrap from '../image/bootstrap.png'
-import github from '../image/github.png'
-import heroku from '../image/heroku.jpg'
-import html from '../image/html.png'
-import javascript from '../image/javascript.png'
-import mongo from '../image/mongo.png'
-import netlify from '../image/netlify.jpg'
-import node from '../image/nodejs.jpg'
-import redux from '../image/redux.png'
-import sass from '../image/sass.png'
-import sql from '../image/sql.png'
-import vue from '../image/vue.png'
-import material from '../image/material.png'
-
-
 
 
 const About = (props) => {
@@ -24,44 +7,75 @@ const About = (props) => {
         <div ref={props.refProp} className="aboutBody">
             <div className="skills_tools_div">
                 <div className="about_div">
-                <span className="about_me">ABOUT ME</span>
-                <div className="about_info"> I'm a passionate and motivated Software developer with great passion for taking on challenges
-                        , I spend a lot of time building client-side applicatons with preference to the React.js framework.</div>
-                </div>
-
-            <div className="about_skill">
-                <span className="about_me">SKILLS & TOOLS</span>
-            </div>
-            <div className="skill_grid">
-                <div className="skin_item">
-                    <div className="image_box">
-                        <i className="fab fa-react"></i>
+                    <span className="about_me">ABOUT ME</span>
+                    <div className="about_info">
+                        I'm a Lagos, Nigerian based self taught web developer focused on creating user‑friendly websites with preference to the React.js framework. I am proficient in HTML and CSS also, and I have built some other simple projects with JavaScript and SASS. I'm passionate and motivated in taking on any challenges.
+                        when building or cloning web projects, I strongly adhere to Responsive Design, Great UI/UX & Accessibility  and Reusable & minimal code principles which makes my websites both unique and scaleable.
                     </div>
-                    <p className="text">REACT JS</p>
                 </div>
-
-                <div className="skin_item">
-                <div className="image_box">
-                        <i className="fab fa-js-square"></i>
+                <hr className="seperator"/>
+                <div className="about_skill">
+                    <span className="about_me">MY STACK</span>
+                </div>
+                <div className="skill_grid">
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i class="fab fa-html5 fa-4x"></i>
+                        </div>
+                        <p className="text">HTML5</p>
                     </div>
-                    <p className="text">JAVASCRIPT</p>
-                </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i class="fab fa-css3"></i>
+                        </div>
+                        <p className="text">CSS3</p>
+                    </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <p className="text">BOOTSTRAP</p>
+                    </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <p className="text">SASS</p>
+                    </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i className="fab fa-react"></i>
+                        </div>
+                        <p className="text">REACT JS</p>
+                    </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i className="fab fa-vuejs"></i>
+                        </div>
+                        <p className="text">VUE JS</p>
+                    </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                            <i className="fab fa-js-square"></i>
+                        </div>
+                        <p className="text">JAVASCRIPT</p>
+                    </div>
 
-                <div className="skin_item">
+               {/* <div className="skin_item">
                 <div className="image_box">
                     <img src={redux} alt="logo" />
                 </div>
                     <p className="text">REDUX</p>
-                </div>
+                </div>*/}
 
-                <div className="skin_item">
-                <div className="image_box">
-                <i className="fab fa-node-js"></i>
-                </div>
-                    <p className="text">NODE JS</p>
-                </div>
+                    <div className="skin_item">
+                        <div className="image_box">
+                        <i className="fab fa-node-js"></i>
+                    </div>
+                        <p className="text">NODE JS</p>
+                    </div>
 
-                <div className="skin_item">
+                {/*<div className="skin_item">
                     <div className="image_box">
                         <img src={mongo} alt="logo" />
                     </div>
@@ -72,31 +86,8 @@ const About = (props) => {
                         <img src={sql} alt="logo" />
                     </div>
                     <p className="text">MYSQL</p>
-                </div>
-                <div className="skin_item">
-                    <div className="image_box">
-                    <i class="fab fa-html5"></i>
-                    </div>
-                    <p className="text">HTML5</p>
-                </div>
-                <div className="skin_item">
-                    <div className="image_box">
-                    <i class="fab fa-css3"></i>
-                    </div>
-                    <p className="text">CSS3</p>
-                </div>
-                <div className="skin_item">
-                    <div className="image_box">
-                    <i class="fab fa-bootstrap"></i>
-                    </div>
-                    <p className="text">BOOTSTRAP</p>
-                </div>
-                <div className="skin_item">
-                    <div className="image_box">
-                        <img src={sass} alt="logo" />
-                    </div>
-                    <p className="text">SASS</p>
-                </div>
+            </div>
+
                 <div className="skin_item">
                     <div className="image_box">
                         <img src={material} alt="logo" />
@@ -120,7 +111,7 @@ const About = (props) => {
                         <img src={netlify} alt="logo" />
                     </div>
                     <p className="text">NETLIFY</p>
-                </div>
+                </div>*/}
             </div>
             </div>
             <div className="divisor"></div>

@@ -25,16 +25,20 @@
   font-size: 25px;
   border-bottom: 7px;
   font-family: 'Fredoka One';
-  color: #5cdb95;
+  color: black;
   letter-spacing: 4px;
 }
+
 .listitem {
-  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .listitemcontent {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
 }
 .listitemcontent p {
   margin-top: 5px;
@@ -85,6 +89,9 @@ footer {
     margin-top: 3%;
     padding-top: 3%;
   }
+  .contact-grid {
+    margin-top: 3rem;
+  }
   .logos i {
     font-size: 29px;
     justify-content: space-around;
@@ -101,5 +108,63 @@ footer {
     margin-right: 20%;
     margin-left: 20%;
     text-align: center;
+  }
+  .contacthead {
+    margin-bottom: 1%;
+    text-align: center;
+  }
+  .contactform input[type='text'],
+  .contactform input[type='email'] {
+    border: 1px solid #5cdb95;
+    width: 80%;
+    background: #5cdb95;
+    color: #fff;
+    padding: 11px 26px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none !important;
+    transition: 0.3s;
+  }
+  .contactform textarea {
+    border: 1px solid #5cdb95;
+    background: #5cdb95;
+    color: #fff;
+    width: 80%;
+    padding: 12px 26px;
+    margin-bottom: 20px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 30px;
+    outline: none !important;
+    transition: 0.3s;
+  }
+  .contactrow {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactflex {
+    display: flex;
+  }
+  .submitBtn {
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5cdb95;
+    padding: 0 40px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    border: 0;
+    text-decoration: none;
+    width: 30%;
+    margin-left: 3rem;
   }
 }

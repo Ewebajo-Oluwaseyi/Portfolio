@@ -10,7 +10,7 @@
 .about_me {
   font-size: 25px;
   font-family: 'Fredoka One';
-  color: #5cdb95;
+  color: black;
   letter-spacing: 4px;
 }
 .about_skill {
@@ -58,19 +58,21 @@
 .image_box i,
 .image_box img {
   color: rgb(55, 150, 131, 0.9);
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .text {
   color: black;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 11px;
   font-family: 'Fredoka One';
+  margin-top: 1.2rem;
 }
 
 .image_box:hover {
   padding-top: 1%;
   transform: translateX(5px);
+  transition: 0.5s ease;
 }
 .divisor {
   width: 100%;
@@ -86,7 +88,13 @@
   margin-left: 5%;
   margin-top: 3%;
 }
-
+.seperator {
+  border-top: 1px solid #252525;
+  max-width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
 @media only screen and (min-width: 1071px) {
   .aboutBody {
     margin-top: 3%;
@@ -95,11 +103,41 @@
 
   .skill_grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    padding: 10px;
-    border-radius: 20px;
-    margin-right: 5%;
-    margin-left: 5%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 15px;
     margin-top: 3%;
+    margin-bottom: 4%;
+  }
+  .image_box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1),
+      -6px -6px 12px rgba(255, 255, 255, 1);
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_box i,
+  .image_box img {
+    color: rgb(55, 150, 131, 0.9);
+    font-size: 50px;
+  }
+  .text {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Fredoka One';
+    margin-top: 1.2rem;
+  }
+  .seperator {
+    border-top: 1px solid #252525;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
 }

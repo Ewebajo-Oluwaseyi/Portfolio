@@ -11,56 +11,56 @@ const Projects = (props) => {
 
     return (
         <div ref={props.refProp} className="projectBody">
-            <div className="projectHead"><span>Projects</span></div>
+            <div className="projectHead"><span>PROJECTS</span></div>
             <div className="projectGrid">
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/todo.PNG" className="projectImage" alt=""/>
+                    <img src="image/food.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/Todo" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/FoodApp" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://6063387b841948009dbf2b8f--seyi-todo.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://sfood-app.herokuapp.com" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                  <h5 className="projectText">Todo App</h5>
+                <h5 className="projectText">Food App</h5>
                 </article>
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/shopping.PNG" className="projectImage" alt=""/>
+                    <img src="image/shoe.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/Shoppinglist-JavaScript" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Shoe-store-Ecommerce-website" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://shoppinglist-javascript.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://https://sheifunmi-shoe.herokuapp.com/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                <h5 className="projectText">JavaScript Shoppinglist</h5>
+                <h5 className="projectText">Shoe E-commerce App</h5>
                 </article>
 
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/workers.PNG" className="projectImage" alt=""/>
+                    <img src="image/lay.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/WorkersInformationKeeper" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Responsive-Layout" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://quiet-beyond-33272.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://ewebajo-oluwaseyi.github.io/Responsive-Layout/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                <h5 className="projectText">Workers Infor Keeper</h5>
+                <h5 className="projectText">Responsive-Layout</h5>
                 </article>
 
                 <article className="projectItem">
@@ -82,36 +82,87 @@ const Projects = (props) => {
 
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/food.PNG" className="projectImage" alt=""/>
+                    <img src="image/laptop.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/FoodApp" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Laptop-landing-page" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://apricot-crisp-41919.herokuapp.com/order" target="_blank" rel="noreferrer">
+                        <a href="https://buylaptop-landing-page.netlify.app/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                <h5 className="projectText">Food App</h5>
+                <h5 className="projectText">Buy Laptop Landing Page</h5>
                 </article>
 
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/layout.PNG" className="projectImage" alt=""/>
+                    <img src="image/restaurant.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/Responsive-Layout" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/RestaurantFrontPage-Gatsby" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://6058f2f4c2c89535cb6a2424--reponsivelayout.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://restaurantfrontpage-gatsby.netlify.app/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                <h5 className="projectText">Responsive Layout</h5>
+                <h5 className="projectText">Gatsby-Restaurant Landing Page</h5>
+                </article>
+
+                <article className="projectItem">
+                <div className="projectContainer">
+                    <img src="image/sunny.PNG" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Frontend-mentor-challenge-Sunnyside-agency-landing-page" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true"/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://oluwaseyi-sunnyside.netlify.app/" target="_blank" rel="noreferrer">
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">Frontend Mentor Challenge: Sunnyside Landing Page</h5>
+                </article>
+
+                <article className="projectItem">
+                <div className="projectContainer">
+                    <img src="image/pet.PNG" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Frontend-mentor-challenge-Sunnyside-agency-landing-page" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true"/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://protected-shelf-97954.herokuapp.com/" target="_blank" rel="noreferrer">
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">Adopt Pet With Vue JS/Node JS</h5>
+                </article>
+
+                <article className="projectItem">
+                <div className="projectContainer">
+                    <img src="image/cal.PNG" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/simple-interest-calculator-javascript" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true"/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://simpleinterestcal.netlify.app/" target="_blank" rel="noreferrer">
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">JavaScript Simple Interest Calculator</h5>
                 </article>
 
             </div>

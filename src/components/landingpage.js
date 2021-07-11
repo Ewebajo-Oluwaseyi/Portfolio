@@ -14,69 +14,36 @@ const Landingpage = (props) => {
         const hour = date.getHours();
 
         if(hour < 12) {
-            return setGreetings (<div className="greetings">Good Morning!</div>)
+            return setGreetings (<div className="greetings">HI THERE!<span>Good Morning!</span> </div>)
         }
         if(hour >= 12 && hour < 17) {
-            return setGreetings (<div className="greetings">Good Afternoon!</div>)
+            return setGreetings (<div className="greetings">HI THERE!<span>Good Afternoon!</span> </div>)
         }
         else {
-            return setGreetings (<div className="greetings">Good Evening!</div>)
+            return setGreetings (<div className="greetings">HI THERE!<span>Good Evening!</span> </div>)
         }
     }, [])
     return (
         <div className="landingpage">
-                <div className="landing_grid">
+            <div className="landing_grid">
                 <div  className="profile_grid_item">
-                    <img src={img} alt='Avatar'/>
+
+                    <img src={img} alt='Avatar' className="myAvatar"/>
                 </div>
                 <div className="profile_grid_item about">
                     <div className="profile_name">{greetings} </div>
-                    <div className="name">I'm Ewebajo Oluwaseyi</div>
+                    <div className="name">I'm <span>Ewebajo Oluwaseyi</span></div>
                     <div className="typing-effect">
                     <ReactTypingEffect
-                        text = {["<Software developer/>"]}
-                    />
+                        text = {["<A Web Developer/>"]}
+                        />
                     </div>
-
-
-                <div >
-
-
-                </div>
+                    <a onClick={()=>props.scrollToRef(props.about)} href="!#" className="moreBtn">More about me <span><i  className="fa fa-arrow-right ArrowRight"/></span></a>
                 </div>
 
-
-
-                </div>
-
-            {/*
-                 <Link to={{pathname:"https://drive.google.com/file/d/1DrOIsjv6wdzd4wJZh94Z0BD_VMmMe2G1/view"}} className='resume' target='_blank' >
-                <button className="btn btn-light waves-effect" type="button">My Resume</button>
-                </Link>
-            <Grid className={style.landingGrid}>
-                <Cell col={12}>
-                 <img src='/image/img.jpg' alt='Avatar' className={style.avatarImg}/>
-                </Cell>
-                <div className={style.banner}>
-                <h1 className={style.bannerH1}>Ewebajo Oluwaseyi</h1>
-                <h2 className={style.bannerH2}>WEB DEVELOPER</h2>
-                <hr className={style.bannerHr}/>
-                <p  className={style.bannerP}>HTML | CSS | Javascript | React </p>
-                <div className={style.socialLinks}>
-                    <a  href="https://www.linkedin.com/in/ewebajo-oluwaseyi/" target="_blank" rel="noreferrer">
-                        <i style={{color: 'white', fontSize: '80px', padding: '8px'}} class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-                    <a  href="https://github.com/Ewebajo-Oluwaseyi" target="_blank" rel="noreferrer">
-                        <i style={{color: 'white', fontSize: '80px', padding: '8px'}} class="fa fa-github-square" aria-hidden="true"></i>
-                    </a>
-                </div>
-                </div>
-    </Grid>*/}
-
-        <li onClick={()=>props.scrollToRef(props.about)}><i  className="fa fa-arrow-down fa-3x ArrowDown" aria-hidden="true"/></li>
-
+            </div>
+            {/*<div><i  className="fa fa-arrow-down fa-3x ArrowDown" aria-hidden="true"/></div>*/}
         </div>
-
     )
 }
 

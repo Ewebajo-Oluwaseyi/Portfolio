@@ -20,12 +20,11 @@ function App() {
 
 
   useEffect(() => {
-    /*var div=document.createElement("div");
-    div.id="preloader"
-    div.className="preloader"
-    div.innerHTML='<div class="black_wall"></div><div class="loader"></div>'
-    document.body.insertBefore(div,document.body.firstChild)*/
-    window.onload = function(){document.getElementById("preloader").classList.add("off")};
+    document.title = "Sheifunmi Portfolio";
+    window.scrollTo(0, 0);
+    window.onload = function(){
+      document.getElementById("preloader").classList.add("off")
+    };
   }, [])
   return (
     <div>

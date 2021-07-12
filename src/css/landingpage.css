@@ -34,8 +34,8 @@
 .profile_grid_item img {
   position: relative;
   z-index: 1;
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   margin-top: 50px;
   text-align: center;
   justify-content: center;
@@ -65,7 +65,7 @@
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.5px;
   border: 0;
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-decoration: none;
 }
 .moreBtn:hover {
@@ -89,11 +89,14 @@
   padding-left: 0%;
 }
 .name {
-  margin-top: 3%;
+  margin-top: 6%;
   font-family: 'Fredoka One';
   margin-left: 16px;
   font-size: 1.5rem;
   color: white;
+  letter-spacing: 2px;
+  line-height: 10px;
+  margin-bottom: 6%;
 }
 .name span {
   color: black;

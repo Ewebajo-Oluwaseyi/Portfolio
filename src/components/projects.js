@@ -11,7 +11,7 @@ const Projects = (props) => {
 
     return (
         <div ref={props.refProp} className="projectBody">
-            <div className="projectHead"><span>PROJECTS</span></div>
+            <div className="projectHead"><span>Projects</span></div>
             <div className="projectGrid">
                 <article className="projectItem">
                 <div className="projectContainer">
@@ -38,7 +38,7 @@ const Projects = (props) => {
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://https://sheifunmi-shoe.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://sheifunmi-shoe.herokuapp.com/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>

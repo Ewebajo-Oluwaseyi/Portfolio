@@ -18,7 +18,7 @@ const Navigation = (props) => {
                 <ul>
                     <li onClick={()=>props.scrollToRef(props.about)}>About</li>
                     <li onClick={()=>props.scrollToRef(props.project)}>Projects</li>
-                    <li><Link to={{pathname:"https://drive.google.com/file/d/1lW3Xv5QVL4AC72v2_IhrGvtb42RR76ak/view?usp=sharing"}}  target='_blank' ><span className="resume">Resume</span></Link></li>
+                    <li><Link to={{pathname:"https://drive.google.com/file/d/1zTfGhFNgGTH2z6oYIu9RtFlX9McyyplT/view?usp=sharing"}}  target='_blank' ><span className="resume">Resume</span></Link></li>
                     <li onClick={()=>props.scrollToRef(props.contact)}>Contact</li>
                 </ul>
                 <span onClick={changeSidebar} className="barIcon"><i className="fa fa-bars"></i></span>

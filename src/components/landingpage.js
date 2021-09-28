@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import { Cell, Grid } from 'react-mdl';
 import '../css/landingpage.css'
 import img from '../image/img1.jpg';
 import ReactTypingEffect from 'react-typing-effect'
-import {Link} from 'react-router-dom'
 
 const Landingpage = (props) => {
 

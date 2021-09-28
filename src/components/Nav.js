@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Sidebar from './SideBar'
 import '../App.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {Link} from 'react-router-dom'
 
 const Navigation = (props) => {

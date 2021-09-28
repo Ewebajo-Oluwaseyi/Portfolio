@@ -1,10 +1,5 @@
-import React, {useState} from 'react';
-import {Grid, Cell, Tabs, Tab, Card, CardTitle,CardText,CardActions,CardMenu,Button,IconButton} from 'react-mdl'
+import React from 'react';
 import '../css/project.css'
-import book from '../image/book.PNG';
-import food from '../image/food.PNG'
-import workers from '../image/workers.PNG'
-import todo from '../image/todo.PNG'
 
 const Projects = (props) => {
 

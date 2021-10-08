@@ -60,19 +60,19 @@ const Projects = (props) => {
 
                 <article className="projectItem">
                 <div className="projectContainer">
-                    <img src="image/book.PNG" className="projectImage" alt=""/>
+                    <img src="image/quidaxbook.png" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/Book-Store-Log" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Quidax-book" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>
                     <button className="link2">
-                        <a href="https://calm-badlands-14758.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://quidax-sheifunmi.netlify.app/" target="_blank" rel="noreferrer">
                         View Website
                         </a>
                     </button>
                 </div>
-                <h5 className="projectText">Book Store Logs</h5>
+                <h5 className="projectText">GraphQL Book Store </h5>
                 </article>
 
                 <article className="projectItem">

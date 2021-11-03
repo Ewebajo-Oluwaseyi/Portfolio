@@ -43,6 +43,23 @@ const Projects = (props) => {
 
                 <article className="projectItem">
                 <div className="projectContainer">
+                    <img src="image/smarthub.png" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/SmartHub" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true"/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://oluwaseyi-smarthub.netlify.app/" target="_blank" rel="noreferrer">
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">SmartHub Landing Page</h5>
+                </article>
+
+                <article className="projectItem">
+                <div className="projectContainer">
                     <img src="image/lay.PNG" className="projectImage" alt=""/>
                     <button className="link1">
                         <a href="https://github.com/Ewebajo-Oluwaseyi/Responsive-Layout" target="_blank" rel="noreferrer">
@@ -73,6 +90,23 @@ const Projects = (props) => {
                     </button>
                 </div>
                 <h5 className="projectText">GraphQL Book Store </h5>
+                </article>
+
+                <article className="projectItem">
+                <div className="projectContainer">
+                    <img src="image/bluecube.PNG" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Blue-cube" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true"/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://blue-cube.vercel.app/" target="_blank" rel="noreferrer">
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">Bluecube with Unsplash Api</h5>
                 </article>
 
                 <article className="projectItem">
@@ -109,7 +143,7 @@ const Projects = (props) => {
                 <h5 className="projectText">Gatsby-Restaurant Landing Page</h5>
                 </article>
 
-                <article className="projectItem">
+               {/* <article className="projectItem">
                 <div className="projectContainer">
                     <img src="image/sunny.PNG" className="projectImage" alt=""/>
                     <button className="link1">
@@ -124,9 +158,9 @@ const Projects = (props) => {
                     </button>
                 </div>
                 <h5 className="projectText">Frontend Mentor Challenge: Sunnyside Landing Page</h5>
-                </article>
+    </article>*/}
 
-                <article className="projectItem">
+                {/*<article className="projectItem">
                 <div className="projectContainer">
                     <img src="image/pet.PNG" className="projectImage" alt=""/>
                     <button className="link1">
@@ -141,7 +175,7 @@ const Projects = (props) => {
                     </button>
                 </div>
                 <h5 className="projectText">Adopt Pet With Vue JS/Node JS</h5>
-                </article>
+</article>*/}
 
                 <article className="projectItem">
                 <div className="projectContainer">

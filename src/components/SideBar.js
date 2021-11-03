@@ -14,7 +14,7 @@ const SideBar = (props) => {
                 <li onClick={()=>{props.scrollToRef(props.project)
                  props.changeSidebar()
                  }}>Projects</li>
-                <li><Link to={{pathname:"https://drive.google.com/file/d/1d7xahLqLhEYK5Bu1vR8FgFSAmu2EXk6V/view?usp=sharing"}}  target='_blank' >
+                <li><Link to={{pathname:"https://drive.google.com/file/d/1pmOV0NqZw8NVQIQU0AvRltadsEwa94f1/view?usp=sharing"}}  target='_blank' >
                     <span className="resumesidebar" onClick={()=>{props.changeSidebar()
                  }}>Resume</span> </Link></li>
                 <li onClick={()=>{props.scrollToRef(props.contact)

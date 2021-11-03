@@ -6,6 +6,7 @@
   background: var(--secondary-color);
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
   background: linear-gradient(to right, #38ef7d, #11998e);
+  height: 90vh;
 }
 .landing_grid {
   width: 100%;

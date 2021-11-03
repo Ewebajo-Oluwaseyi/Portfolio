@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 .sidebarCOntainerShow {
   transform: translateX(-100%);
-  transition: transform 1s;
+  transition: transform 1s ease-out;
   background-color: black;
   color: white;
   height: 850px;
@@ -16,7 +16,7 @@
 
 .sidebarContainer {
   transform: translateX(0);
-  transition: transform 1s;
+  transition: transform 1s ease-in;
   background-color: black;
   color: white;
   font-family: 'Fredoka One';
@@ -39,11 +39,11 @@
   list-style: none;
   text-decoration: none;
 }
-.sidebarCOntainerShow li {
-  margin-top: 30px;
+.sidebarCOntainerShow ul li {
+  margin-top: 60px;
 }
-.sidebarContainer li {
-  margin-top: 30px;
+.sidebarContainer ul li {
+  margin-top: 60px;
 }
 .sidebarContainer ul li:hover {
   color: grey;

@@ -12,7 +12,7 @@ const Projects = (props) => {
                 <div className="projectContainer">
                     <img src="image/food.PNG" className="projectImage" alt=""/>
                     <button className="link1">
-                        <a href="https://github.com/Ewebajo-Oluwaseyi/FoodApp" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Food-Ordering-App" target="_blank" rel="noreferrer">
                         <i  className="fa fa-github" aria-hidden="true"/>View Code
                         </a>
                     </button>

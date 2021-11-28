@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from 'react'
 import '../css/about.css';
 import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Skills = (props) => {
+    gsap.registerPlugin(ScrollTrigger);
     const ref = useRef(null);
     useEffect(() => {
         const element = ref.current;

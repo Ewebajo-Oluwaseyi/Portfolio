@@ -1,6 +1,5 @@
 import React from 'react';
-import '../css/contacts.css'
-import {Link} from 'react-router-dom'
+import '../css/contacts.css';
 
 const Contacts = (props) => {
 
@@ -15,25 +14,25 @@ const Contacts = (props) => {
                 </div>
                 <div className="listitem">
                     <div className="listitemcontent">
-                        <Link
-                            to={{pathname:"mailto:seyiewebajo@gmail.com"}}
+                        <a
+                            href="mailto:seyiewebajo@gmail.com"
                         >
                           <div className="contact_icon">
                             <i className="fa fa-envelope fa-2x" aria-hidden="true"/>
                           </div>
                           <p>seyiewebajo@gmail.com</p>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="listitemcontent" >
-                        <Link
-                            to={{pathname:"tel: +2348179058217"}}
+                        <a
+                            href="tel:+2348179058217"
                         >
                           <div className="contact_icon">
                             <i className="fa fa-phone-square fa-2x" aria-hidden="true"/>
                           </div>
                           <p>+234 817 905 8217</p>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                {/* <div>

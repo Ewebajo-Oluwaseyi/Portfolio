@@ -43,6 +43,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: 0 8px 32px 0 grey;
+  border-radius: 7px;
 }
 .link1,
 .link2 {

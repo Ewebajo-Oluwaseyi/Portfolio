@@ -14,14 +14,14 @@ const Projects = (props) => {
           });
           
           tl.from(".project1", { y: 400, opacity: 0, duration: 1.5 })
-            .from(".project2", { y: 400, opacity: 0, duration: 1.5 }, "-=1.1")
-            .from(".project3", { y: 400, opacity: 0, duration: 1.5 }, "-=1.3")
-            .from(".project4", { y: 400, opacity: 0, duration: 1.5 }, "-=1.5")
-            .from(".project5", { y: 400, opacity: 0, duration: 1.5 }, "-=1.7")
-            .from(".project6", { y: 400, opacity: 0, duration: 1.5 }, "-=1.9")
-            .from(".project7", { y: 400, opacity: 0, duration: 1.5 }, "-=2.1")
-            .from(".project8", { y: 400, opacity: 0, duration: 1.5 }, "-=2.3")
-            .from(".project9", { y: 400, opacity: 0, duration: 1.5 }, "-=2.5")
+            .from(".project2", { y: 400, opacity: 0, duration: 1.5 }, "-=1.5")
+            .from(".project3", { y: 400, opacity: 0, duration: 1.5 }, "-=1.7")
+            .from(".project4", { y: 400, opacity: 0, duration: 1.5 }, "-=1.9")
+            .from(".project5", { y: 400, opacity: 0, duration: 1.5 }, "-=2.1")
+            .from(".project6", { y: 400, opacity: 0, duration: 1.5 }, "-=2.3")
+            .from(".project7", { y: 400, opacity: 0, duration: 1.5 }, "-=2.5")
+            .from(".project8", { y: 400, opacity: 0, duration: 1.5 }, "-=2.7")
+            .from(".project9", { y: 400, opacity: 0, duration: 1.5 }, "-=2.9")
     },[])
     
 

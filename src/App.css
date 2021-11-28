@@ -9,6 +9,13 @@
   --mainTransition: all 0.3s linear;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
 html {
   scroll-behavior: smooth;
   background: #ececec;

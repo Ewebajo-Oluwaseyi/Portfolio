@@ -4,14 +4,17 @@
   background: var(--secondary-color);
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
   background: linear-gradient(to right, #38ef7d, #11998e);
-  height: 100vh;
+  height: 110vh;
+  overflow: hidden;
+  position: relative;
+  padding: 5rem 0rem;
 }
 .landing_grid {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  padding: 6rem 2rem;
+  padding: 1rem 2rem;
   margin: 60px auto;
   align-content: center;
 }
@@ -36,9 +39,8 @@
 .profile_grid_item img {
   position: relative;
   z-index: 1;
-  width: 220px;
-  height: 300px;
-  margin-top: 50px;
+  width: 240px;
+  height: 340px;
   text-align: center;
   justify-content: center;
   z-index: 0;
@@ -47,9 +49,8 @@
 }
 @media (min-width: 414px ) {
   .profile_grid_item img {
-    width: 240px;
-    height: 310px;
-    margin-top: 40px;
+    width: 260px;
+    height: 350px;
   }
 }
 .about .links {
@@ -97,15 +98,16 @@
 .about h1 {
   color: #ffffff;
   font-family: 'Fredoka One';
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
-  margin: 10px 0px;
+  margin: 20px 0px;
   animation: expand 5000ms ease-in-out;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 @media (min-width: 414px ) {
   .about h1 {
-    font-size: 26px
+    font-size: 32px;
+    letter-spacing: 2px;
   }
 }
 @keyframes expand {
@@ -268,8 +270,7 @@
 }
 @media only screen and (min-width: 768px) {
   .landingpage {
-    margin-top: 4%;
-    height: 90vh;
+    height: 100vh;
   }
 
   .landing_grid {
@@ -279,11 +280,10 @@
     grid-template-rows: 1fr;
     grid-template-columns: auto auto;
     align-content: center;
-    padding: 3rem 2rem;
   }
   .profile_grid_item img {
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 440px;
     z-index: 0;
   }
 
@@ -297,6 +297,10 @@
     font-size: 20px;
     padding: 0 2px 0 2px;
     line-height: 50px;
+  }
+
+  .about h1 {
+    font-size: 32px;
   }
 
   .about h1 span {
@@ -372,11 +376,10 @@
 
 @media only screen and (min-width: 1024px) {
   .landingpage {
-    margin-top: 2%;
-    height: 90vh;
+    height: 100vh;
   }
   .landing_grid {
-    padding: 2rem 3rem;
+    margin: 0;
   }
   .greetings {
     font-size: 30px;

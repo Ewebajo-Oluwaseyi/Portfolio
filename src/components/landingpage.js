@@ -25,7 +25,7 @@ const Landingpage = (props) => {
     }, []);
 
     window.addEventListener("scroll", () => {
-        if (window.scrollY >= 100) {
+        if (window.scrollY >= 250) {
             setScroll(true);
         } else setScroll(false)
     })

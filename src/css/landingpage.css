@@ -4,17 +4,16 @@
   background: var(--secondary-color);
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
   background: linear-gradient(to right, #38ef7d, #11998e);
-  height: 110vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
-  padding: 5rem 0rem;
 }
 .landing_grid {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  padding: 1rem 2rem;
+  padding: 4rem 2rem 2rem;
   margin: 60px auto;
   align-content: center;
 }
@@ -40,7 +39,7 @@
   position: relative;
   z-index: 1;
   width: 240px;
-  height: 340px;
+  height: 300px;
   text-align: center;
   justify-content: center;
   z-index: 0;
@@ -50,7 +49,7 @@
 @media (min-width: 414px ) {
   .profile_grid_item img {
     width: 260px;
-    height: 350px;
+    height: 300px;
   }
 }
 .about .links {

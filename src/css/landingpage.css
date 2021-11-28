@@ -38,20 +38,15 @@
 .profile_grid_item img {
   position: relative;
   z-index: 1;
-  width: 240px;
-  height: 300px;
+  width: 260px;
+  height: 340px;
   text-align: center;
   justify-content: center;
   z-index: 0;
   box-shadow: 7px 7px #38ef7d;
   border-radius: 10px;
 }
-@media (min-width: 414px ) {
-  .profile_grid_item img {
-    width: 260px;
-    height: 300px;
-  }
-}
+
 .about .links {
   margin: 30px 0px
 }

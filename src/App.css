@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
 :root {
   --primary-color: rgb(5, 56, 107);
@@ -19,6 +20,7 @@ body {
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   background: #eaeaea;
+  overflow-x: hidden;
 }
 @keyframes softload {
   from {
@@ -46,11 +48,13 @@ h6 {
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
   background: linear-gradient(to right, #38ef7d, #11998e);
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   position: fixed;
   background-color: white;
   top: 0;
-  z-index: 1;
+  z-index: 1000;
   height: 60px;
 }
 .resume {
@@ -66,11 +70,10 @@ h6 {
 }
 .headerName {
   font-family: Santeria;
-  color: black;
+  color: #ffffff;
   display: flex;
-  margin-left: 5%;
-  margin-top: 6%;
-  font-size: 35px;
+  margin: 10px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 7px;
 }
@@ -79,11 +82,12 @@ h6 {
   margin-right: 5%;
 }
 .headerName:hover {
-  color: grey;
+  color: #11998e;
 }
 
 .navigation ul {
   display: none;
+  font-family: Fredoka One;
 }
 
 .barIcon {
@@ -92,15 +96,34 @@ h6 {
   right: 0;
   cursor: pointer;
   font-size: 28px;
-  margin-top: 3%;
-  margin-right: 10%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+.barIcon  label {
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  padding: 13px;
+  cursor: pointer;
+}
+.barIcon label span {
+  width: 100%;
+  height: 12px;
+  display: block;
+  border-top: 2px solid #38ef7d;
+}
+.barIcon label span:nth-child(1) {
+  width: 80%;
+}
+.barIcon label span:nth-child(3) {
+  width: 80%;
 }
 .sidebar {
   width: 100%;
   height: 100%;
 }
 
-@media screen and (min-width: 1031px) {
+@media screen and (min-width: 800px) {
   .sidebar {
     display: none;
   }
@@ -109,34 +132,38 @@ h6 {
     display: flex;
     width: 100%;
     height: 66px;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .headerName {
-    color: black;
+    color: #ffffff;
     display: flex;
-    margin-left: 1.8%;
-    margin-top: 2.5%;
-    font-size: 53px;
+    margin: 10px 20px 0px;
+    font-size: 40px;
     letter-spacing: 5px;
     line-height: 16px;
   }
   .headerName:hover {
-    color: grey;
+    color: #11998e;
   }
 
   .navigation ul {
-    color: black;
     display: flex;
     list-style: none;
-    margin-left: 42%;
-    margin-top: 2%;
-    font-size: 20px;
+    margin: 10px 20px;
+    font-size: 18px;
   }
 
   .navigation ul li {
-    margin-left: 8%;
+    color: #ffffff;
+    margin: 0px 15px;
     cursor: pointer;
     text-transform: uppercase;
+  }
+
+  .navigation ul li:hover {
+    color: #38ef7d;
   }
 
   .barIcon {

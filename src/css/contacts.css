@@ -1,6 +1,6 @@
 .contact {
   margin-top: 3%;
-  padding-top: 8%;
+  padding: 4% 0 0;
 }
 
 .contactBody {
@@ -25,8 +25,9 @@
   font-size: 25px;
   border-bottom: 7px;
   font-family: 'Fredoka One';
-  color: black;
+  color: #11998e;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .listitem {
@@ -40,10 +41,21 @@
   align-content: center;
   margin: auto;
 }
+.listitemcontent a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  color: rgb(55, 150, 131, 0.9);
+}
+.listitemcontent a:hover {
+  transform: scale(0.9);
+}
 .listitemcontent p {
   margin-top: 5px;
   margin-left: 12px;
   font-size: 19px;
+  color: rgb(55, 150, 131, 0.9);
 }
 
 .contact_icon {
@@ -65,10 +77,11 @@
 
 footer {
   margin-top: 2%;
-  padding-top: 10px;
+  padding: 15px 10px;
   text-align: center;
+  font-weight: 900;
   justify-content: center;
-  color: black;
+  color:  #11998e;
   background: #5cdb95;
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
   background: linear-gradient(to right, #38ef7d, #11998e);
@@ -87,7 +100,7 @@ footer {
 @media only screen and (min-width: 1070px) {
   .contact {
     margin-top: 3%;
-    padding-top: 3%;
+    padding: 0;
   }
   .contact-grid {
     margin-top: 3rem;

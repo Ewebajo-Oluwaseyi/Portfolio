@@ -1,51 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 .sidebarCOntainerShow {
-  transform: translateX(-100%);
+  transform: translateY(-160%);
   transition: transform 1s ease-out;
-  background-color: black;
-  color: white;
-  height: 850px;
-  width: 40%;
+  background-color: #09090f;
+  color: #38ef7d;
+  height: calc(100vh - 60px);
+  width: 100%;
   position: fixed;
   z-index: 600;
-  opacity: 0.8;
   text-align: center;
-  padding-top: 30%;
   font-size: 28px;
+  margin: auto;
 }
 
 .sidebarContainer {
-  transform: translateX(0);
+  transform: translateY(0);
   transition: transform 1s ease-in;
-  background-color: black;
-  color: white;
+  background-color: #09090f;
+  color: #38ef7d;
   font-family: 'Fredoka One';
-  height: 850px;
-  width: 40%;
+  height: calc(100vh - 60px);
+  width: 100%;
   position: fixed;
   z-index: 600;
-  opacity: 0.8;
   text-align: center;
-  padding-top: 30%;
   font-size: 28px;
+  margin: auto;
 }
 
-.sidebarCOntainerShow ul {
-  list-style: none;
-  text-decoration: none;
+.sidebarCOntainerShow .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.sidebarContainer ul {
-  list-style: none;
-  text-decoration: none;
+.sidebarContainer .sidebar {
+  
 }
-.sidebarCOntainerShow ul li {
-  margin-top: 60px;
+.sidebarCOntainerShow .sidebar .sideItem {
+  font-size: 18px;
+  margin-top: 50px;
 }
-.sidebarContainer ul li {
-  margin-top: 60px;
+.sidebarContainer .sidebar .sideItem {
+  font-size: 18px;
+  margin-top: 50px;
 }
-.sidebarContainer ul li:hover {
+.sidebarContainer .sidebarl .sideItem:hover {
   color: grey;
 }
 

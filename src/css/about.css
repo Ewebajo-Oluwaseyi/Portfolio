@@ -1,8 +1,9 @@
 .aboutBody {
-  margin-top: 3%;
-  padding-top: 8%;
+  margin: 40px 0px;
 }
-
+.skills_tools_div {
+  margin: 20px 0px;
+}
 .about_div {
   text-align: center;
 }
@@ -10,12 +11,16 @@
 .about_me {
   font-size: 25px;
   font-family: 'Fredoka One';
-  color: black;
+  color: #11998e;
   letter-spacing: 4px;
 }
+
+.skill_container {
+  margin: 40px 0px;
+}
+
 .about_skill {
   text-align: center;
-  padding-top: 4%;
 }
 .about_info {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,15 +30,17 @@
   padding: 10px;
   margin-right: 5%;
   margin-left: 5%;
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
-.about_me:hover {
-  color: grey;
-}
+
 
 .skin_item {
   align-items: center;
   text-align: center;
   padding: 0;
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
 .image_box img {
   width: 70%;
@@ -55,14 +62,18 @@
   justify-content: center;
   align-items: center;
 }
-.image_box i,
+.image_box i {
+  color: #11998e;
+  font-size: 20px;
+}
+
 .image_box img {
-  color: rgb(55, 150, 131, 0.9);
+  color: #11998e;
   font-size: 20px;
 }
 
 .text {
-  color: black;
+  color: #11998e;
   font-weight: bold;
   font-size: 11px;
   font-family: 'Fredoka One';
@@ -98,7 +109,6 @@
 @media only screen and (min-width: 1071px) {
   .aboutBody {
     margin-top: 3%;
-    padding-top: 3%;
   }
 
   .skill_grid {
@@ -127,9 +137,9 @@
     font-size: 50px;
   }
   .text {
-    color: black;
+    color: #11998e;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Fredoka One';
     margin-top: 1.2rem;
   }

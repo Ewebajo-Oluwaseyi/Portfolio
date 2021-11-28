@@ -1,6 +1,5 @@
 .projectBody {
   margin-top: 3%;
-  padding-top: 8%;
 }
 
 .projectHead {
@@ -12,8 +11,9 @@
   font-size: 27px;
   border-bottom: 7px;
   font-family: 'Fredoka One';
-  color: black;
+  color: #11998e;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .projectcard {
@@ -25,6 +25,8 @@
   margin-top: 5px;
   padding: 10px 20px;
   text-align: center;
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
 
 .projectGrid {
@@ -101,13 +103,38 @@
 }
 
 .projectText {
-  color: grey;
+  color: #11998e;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.projectTool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectTool p {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 8px;
+  border-radius: 3px;
+  color: #11998e;
+  background-color: rgb(185, 204, 183);
+  padding: 5px 10px;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.projectTool p:nth-child(1) {
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 1071px) {
   .projectBody {
     margin-top: 3%;
-    padding-top: 3%;
   }
   .projectHead {
     margin-bottom: 2%;

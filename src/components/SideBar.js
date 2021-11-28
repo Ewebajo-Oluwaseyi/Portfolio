@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import '../css/Sidebar.css'
 
 
@@ -7,20 +6,20 @@ const SideBar = (props) => {
     console.log(props)
     return (
         <div className={props.showSidebar ? "sidebarContainer":"sidebarCOntainerShow"}>
-            <ul>
-                <li  onClick={()=>{props.scrollToRef(props.about)
+            <div className="sidebar">
+                <div className="sideItem" onClick={()=>{props.scrollToRef(props.about)
                  props.changeSidebar()
-                 }}>About</li>
-                <li onClick={()=>{props.scrollToRef(props.project)
+                 }}>About</div>
+                 <div className="sideItem" onClick={()=>{props.scrollToRef(props.skill)
                  props.changeSidebar()
-                 }}>Projects</li>
-                <li><Link to={{pathname:"https://drive.google.com/file/d/1pmOV0NqZw8NVQIQU0AvRltadsEwa94f1/view?usp=sharing"}}  target='_blank' >
-                    <span className="resumesidebar" onClick={()=>{props.changeSidebar()
-                 }}>Resume</span> </Link></li>
-                <li onClick={()=>{props.scrollToRef(props.contact)
+                 }}>Skill</div>
+                <div className="sideItem" onClick={()=>{props.scrollToRef(props.project)
                  props.changeSidebar()
-                 }}>Contact</li>
-            </ul>
+                 }}>Projects</div>
+                <div className="sideItem" onClick={()=>{props.scrollToRef(props.contact)
+                 props.changeSidebar()
+                 }}>Contact</div>
+            </div>
         </div>
     )
 }

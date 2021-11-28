@@ -15,17 +15,25 @@ const Contacts = (props) => {
                 </div>
                 <div className="listitem">
                     <div className="listitemcontent">
-                        <div className="contact_icon">
+                        <Link
+                            to={{pathname:"mailto:seyiewebajo@gmail.com"}}
+                        >
+                          <div className="contact_icon">
                             <i className="fa fa-envelope fa-2x" aria-hidden="true"/>
-                        </div>
-                        <p>seyiewebajo@gmail.com</p>
+                          </div>
+                          <p>seyiewebajo@gmail.com</p>
+                        </Link>
                     </div>
 
                     <div className="listitemcontent" >
-                        <div className="contact_icon">
+                        <Link
+                            to={{pathname:"tel: +2348179058217"}}
+                        >
+                          <div className="contact_icon">
                             <i className="fa fa-phone-square fa-2x" aria-hidden="true"/>
-                        </div>
-                            <p>+234 817 905 8217</p>
+                          </div>
+                          <p>+234 817 905 8217</p>
+                        </Link>
                     </div>
                 </div>
                {/* <div>
@@ -55,20 +63,7 @@ const Contacts = (props) => {
 
             </div>
         <footer>
-            <div className="logos">
-                <Link to={{pathname:"https://twitter.com/sheifunmi_"}}  target='_blank' >
-                    <i  className="fa fa-twitter" aria-hidden="true"/>
-                </Link>
-
-                <Link to={{pathname:"https://github.com/Ewebajo-Oluwaseyi"}}  target='_blank' >
-                    <i  className="fa fa-github-square" aria-hidden="true"/>
-                </Link>
-
-                <Link to={{pathname:"linkedin.com/in/ewebajo-oluwaseyi-1444b9144"}}  target='_blank' >
-                    <i  className="fa fa-linkedin" aria-hidden="true"/>
-                </Link>
-            </div>
-                <span>copyright &#169; Ewebajo Oluwaseyi 2021</span>
+                <span>&#169; Sheifunmi 2021</span>
         </footer>
             </div>
     )

@@ -101,6 +101,30 @@ const Projects = (props) => {
 
                 <article className="projectItem project3">
                 <div className="projectContainer">
+                    <img src="image/s-coin.png" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/S-Coin" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true" style={{ "marginRight": "5px" }}/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://s-coin.vercel.app/" target="_blank" rel="noreferrer">
+                        <i  className="fas fa-globe" aria-hidden="true" style={{ "marginRight": "5px" }}/>
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">S-Coin</h5>
+                <div className="projectTool">
+                    <p>React JS</p>
+                    <p>SASS</p>
+                    <p>Bootstrap</p>
+                    <p>Redux</p>
+                </div>
+                </article>
+
+                <article className="projectItem project3">
+                <div className="projectContainer">
                     <img src="image/smarthub.png" className="projectImage" alt=""/>
                     <button className="link1">
                         <a href="https://github.com/Ewebajo-Oluwaseyi/SmartHub" target="_blank" rel="noreferrer">
@@ -117,7 +141,6 @@ const Projects = (props) => {
                 <h5 className="projectText">SmartHub Landing Page</h5>
                 <div className="projectTool">
                     <p>React JS</p>
-                    <p>JavaScript</p>
                     <p>CSS</p>
                 </div>
                 </article>

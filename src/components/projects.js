@@ -31,6 +31,28 @@ const Projects = (props) => {
             <div className="projectGrid" ref={ref}>
             <article className="projectItem project1">
                 <div className="projectContainer">
+                    <img src="image/pyroecom.png" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Pyroecom" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true" style={{ "marginRight": "5px" }}/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://pyroecom.vercel.app/" target="_blank" rel="noreferrer">
+                        <i  className="fas fa-globe" aria-hidden="true" style={{ "marginRight": "5px" }}/>
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">PYROECOM</h5>
+                <div className="projectTool">
+                    <p>Vue JS</p>
+                    <p>TailWind css</p>
+                    <p>Vuex</p>
+                </div>
+            </article>
+            <article className="projectItem project1">
+                <div className="projectContainer">
                     <img src="image/slodge.png" className="projectImage" alt=""/>
                     <button className="link1">
                         <a href="https://github.com/Ewebajo-Oluwaseyi/Lodge-Room" target="_blank" rel="noreferrer">
@@ -49,9 +71,8 @@ const Projects = (props) => {
                     <p>React JS</p>
                     <p>TypeScript</p>
                     <p>Context API</p>
-                    <p>CSS</p>
                 </div>
-                </article>
+            </article>
                 <article className="projectItem project1">
                 <div className="projectContainer">
                     <img src="image/food.PNG" className="projectImage" alt=""/>

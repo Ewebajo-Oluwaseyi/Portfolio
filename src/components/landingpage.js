@@ -42,7 +42,7 @@ const Landingpage = (props) => {
                   </div>
                   <div className="links">
                     <Link
-                    to={{pathname:"https://drive.google.com/file/d/1pmOV0NqZw8NVQIQU0AvRltadsEwa94f1/view?usp=sharing"}}  target='_blank' className="moreBtn">
+                    to={{pathname:"https://drive.google.com/file/d/12ddjWtb0WNXURFhYMeJynBFNXIdvgeRi/view?usp=sharing"}}  target='_blank' className="moreBtn">
                         Resume
                    </Link>
                   </div>

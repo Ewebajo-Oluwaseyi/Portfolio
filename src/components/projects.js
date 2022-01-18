@@ -73,6 +73,28 @@ const Projects = (props) => {
                     <p>Context API</p>
                 </div>
             </article>
+            <article className="projectItem project1">
+                <div className="projectContainer">
+                    <img src="image/chat-room.png" className="projectImage" alt=""/>
+                    <button className="link1">
+                        <a href="https://github.com/Ewebajo-Oluwaseyi/Chat-room" target="_blank" rel="noreferrer">
+                        <i  className="fa fa-github" aria-hidden="true" style={{ "marginRight": "5px" }}/>View Code
+                        </a>
+                    </button>
+                    <button className="link2">
+                        <a href="https://chat-room-theta.vercel.app/" target="_blank" rel="noreferrer">
+                        <i  className="fas fa-globe" aria-hidden="true" style={{ "marginRight": "5px" }}/>
+                        View Website
+                        </a>
+                    </button>
+                </div>
+                <h5 className="projectText">Chat-Room</h5>
+                <div className="projectTool">
+                    <p>React JS</p>
+                    <p>TypeScript</p>
+                    <p>Supabase</p>
+                </div>
+            </article>
                 <article className="projectItem project1">
                 <div className="projectContainer">
                     <img src="image/food.PNG" className="projectImage" alt=""/>

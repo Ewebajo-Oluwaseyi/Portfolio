@@ -42,7 +42,7 @@ const Landingpage = (props) => {
                   </div>
                   <div className="links">
                     <Link
-                    to={{pathname:"https://drive.google.com/file/d/12ddjWtb0WNXURFhYMeJynBFNXIdvgeRi/view?usp=sharing"}}  target='_blank' className="moreBtn">
+                    to={{pathname:"https://drive.google.com/file/d/1nTgYdoPHT7syP-1QctK-vqYppBQUSxrF/view?usp=sharing"}}  target='_blank' className="moreBtn">
                         Resume
                    </Link>
                   </div>
@@ -61,7 +61,7 @@ const Landingpage = (props) => {
                     <i  className="fa fa-github-square" aria-hidden="true"/>
                   </Link>
 
-                  <Link to={{pathname:"https://linkedin.com/in/ewebajo-oluwaseyi-1444b9144"}}  target='_blank' >
+                  <Link to={{pathname:"https://linkedin.com/in/ewebajo-oluwaseyi"}}  target='_blank' >
                     <i  className="fa fa-linkedin" aria-hidden="true"/>
                   </Link>
                 </div>

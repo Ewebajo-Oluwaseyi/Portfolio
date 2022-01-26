@@ -118,7 +118,7 @@ const Projects = (props) => {
                     <p>Redux</p>
                 </div>
                 </article>
-                <article className="projectItem project2">
+               {/**  <article className="projectItem project2">
                 <div className="projectContainer">
                     <img src="image/shoe.PNG" className="projectImage" alt=""/>
                     <button className="link1">
@@ -141,7 +141,7 @@ const Projects = (props) => {
                     <p>Redux</p>
                 </div>
                 </article>
-
+                */}
                 <article className="projectItem project3">
                 <div className="projectContainer">
                     <img src="image/s-coin.png" className="projectImage" alt=""/>
@@ -166,7 +166,7 @@ const Projects = (props) => {
                 </div>
                 </article>
 
-                
+                {/**
                 <article className="projectItem project3">
                 <div className="projectContainer">
                     <img src="image/fixer.png" className="projectImage" alt=""/>
@@ -188,7 +188,8 @@ const Projects = (props) => {
                     <p>Bootstrap</p>
                 </div>
                 </article>
-
+                 */}
+                 {/** 
                 <article className="projectItem project3">
                 <div className="projectContainer">
                     <img src="image/smarthub.png" className="projectImage" alt=""/>
@@ -210,8 +211,9 @@ const Projects = (props) => {
                     <p>CSS</p>
                 </div>
                 </article>
+                */}
 
-                <article className="projectItem project4">
+                {/** <article className="projectItem project4">
                 <div className="projectContainer">
                     <img src="image/lay.PNG" className="projectImage" alt=""/>
                     <button className="link1">
@@ -326,7 +328,7 @@ const Projects = (props) => {
                     <p>React JS</p>
                     <p>Styled Components</p>
                 </div>
-                </article>
+                </article>*/}
 
                {/* <article className="projectItem">
                 <div className="projectContainer">
